@@ -1,31 +1,53 @@
-<<<<<<< HEAD
-# M3
+# 🌟 M3: Angular Routing & Contact App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
+## 📝 Project Description
 
-## Development server
+This repository contains a demonstration project developed using **Angular (CLI v13.3.1)**. The application showcases key frontend development concepts, including multi-page routing, two-way data binding (`FormsModule`), dynamic data loading via HTTP (`HttpClientModule`), and the application of modern CSS styling.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The project serves as a personal portfolio website and presentation tool.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ✨ Core Features
 
-## Build
+The application is built on a modular structure and includes the following main components and routes:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* **Navigation and Routing:** Provides smooth, client-side transitions between different sections of the website.
+* **Home Page (`/`, `/home`):** A personal introductory presentation of the developer.
+* **Songs List (`/songs`):** Demonstrates dynamic data fetching from the local `assets/songs.json` file and displays the items using a stylized card layout.
+* **Contact Form (`/contact`):** A component for user communication, including fields for Name, Email, and a dedicated Message area, along with links to social media profiles.
+* **404 Not Found Page (`/**`):** A custom error handler for all non-existent routes.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🚀 Local Setup and Installation
 
-## Running end-to-end tests
+To run this project on your local machine, you will need [Node.js](https://nodejs.org/) and the Angular CLI installed.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/yekater/about.git](https://github.com/yekater/about.git)
+    cd about
+    ```
 
-## Further help
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# rutas
->>>>>>> 4b907a691da51167a8c5afefa2fefda1a4d0d5d8
+3.  **Run the Angular Development Server:**
+    ```bash
+    ng serve --open
+    ```
+    The application will automatically open in your browser at `http://localhost:4200/`.
+
+---
+
+## 🧑‍💻 Author
+
+| **Ekaterina Nosova** | |
+| :--- | :--- |
+| **Specialization:** | Full-Stack Developer |
+| **Location:** | Barcelona |
+| **GitHub:** | [https://github.com/yekater](https://github.com/yekater) |
+| **LinkedIn:** | [Your LinkedIn Profile URL] (Please replace with your actual link) |
