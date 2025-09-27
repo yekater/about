@@ -50,4 +50,4 @@ To run this project on your local machine, you will need [Node.js](https://nodej
 | **Specialization:** | Full-Stack Developer |
 | **Location:** | Barcelona |
 | **GitHub:** | [https://github.com/yekater](https://github.com/yekater) |
-| **LinkedIn:** | [Your LinkedIn Profile URL] (Please replace with your actual link) |
+| **LinkedIn:** | https://www.linkedin.com/in/katerina-bcn/ |
