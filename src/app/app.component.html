@@ -1,56 +1,6 @@
-<div class="hero-section">
-  <div class="profile-info-container">
-    <img
-      src="https://media.licdn.com/dms/image/v2/D4D03AQEONdwx4nfw8Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729458944885?e=1761177600&v=beta&t=8_VbObtXXjFsNzNSq_GNdnfC3nuiI86_SGh3XYFnrpY"
-      alt="Ekaterina Nosova Profile Picture"
-      class="profile-image"
-    />
-    <h1>Ekaterina Nosova</h1>
-    <h2>Full-Stack Developer</h2>
-    <div class="location">
-      <span class="location-icon">📍</span> Lives in Barcelona
-    </div>
-    
-    <div class="social-icons">
-      <a href="https://www.linkedin.com/in/katerina-bcn/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/yekater" target="_blank">GitHub</a>
-    </div>
-  </div>
-</div>
+<nav class="main-nav">
+  <a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+  <a routerLink="/songs" routerLinkActive="active" ariaCurrentWhenActive="page">Songs List</a>
+</nav>
 
-<div class="content-section">
-  <h2 class="section-title">My Hobbies</h2>
-  <div class="hobbies-container">
-    <div class="hobby-item">
-      <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg" alt="Vibe Coding" class="hobby-media" />
-      <div class="image-overlay">
-        <h3>Vibe Coding</h3>
-        <a href="https://www.google.com/maps/d/embed?mid=1JQorvPwGZBYmOQQv-vU3VVtM0ljkWxc&ehbc=2E312F" target="_blank" class="button">
-          Take a look
-        </a>
-      </div>
-    </div>
-    
-    <div class="hobby-item">
-      <img src="https://www.barcelona.cat/culturapopular/sites/default/files/galeria/600castellers_barcelona1.jpg" alt="Castells" class="hobby-media" />
-      <div class="image-overlay">
-        <h3>Castells</h3>
-        <a href="https://castellersdebarcelona.cat/" target="_blank" class="button">
-          Take a look
-        </a>
-      </div>
-    </div>
-    
-    <div class="hobby-item">
-      <img src="https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/chapter_photos/DSC08857%2520%25281%2529.JPG" alt="Developers Event Organizing" class="hobby-media" />
-      <div class="image-overlay">
-        <h3>Developers Event Organizing</h3>
-        <a href="https://gdg.community.dev/gdg-barcelona/" target="_blank" class="button">
-          Take a look
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<app-song-slider></app-song-slider>
+<router-outlet></router-outlet>

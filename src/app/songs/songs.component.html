@@ -1,0 +1,11 @@
+<h2>My Favorite Songs</h2>
+<div class="slider-container">
+  <div class="slider-track">
+    <div *ngFor="let song of songs" class="song-item"> 
+      <img [src]="song.albumImage" [alt]="song.title" class="album-image">
+      <div class="song-info">
+        <p class="song-title">{{ song.title }}</p> 
+      </div>
+    </div>
+  </div>
+</div>

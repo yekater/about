@@ -1,20 +1,30 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { CommonModule } from '@angular/common';  
+import { CommonModule } from '@angular/common';
+
+// 1. Import the corrected Routing Module
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { SongSliderComponent } from './song-slider/song-slider.component';
+// 2. Import all components
+import { HomeComponent } from './home/home.component';
+import { SongsComponent } from './songs/songs.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    SongSliderComponent
+    HomeComponent,
+    SongsComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    CommonModule  
+    CommonModule,
+    AppRoutingModule // 3. MUST be here to make 'router-outlet' work!
   ],
   providers: [],
   bootstrap: [AppComponent]
